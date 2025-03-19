@@ -6,7 +6,7 @@ html { /*concerne tout la page : les police utlisier, la marge a gauche de 35px 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 nav {  
-   background-color: rgb(0, 58, 93);       /*couleur de fond*/
+   background-color: rgb(76, 126, 101);       /*couleur de fond*/
    color: aliceblue;                       /*couleur de police*/
    font-size: 1em;                           /*taille de police*/
    position: fixed;                          /*fixer il ne peut se déplace quand on fait defilier la page*/
@@ -25,7 +25,7 @@ nav img {
 .sommaire {
    padding: 10px;          /*marge interieur*/
    cursor: pointer;        /*fonciton qui saplique l'orsque le curseur est sur le sommaire*/
-   margin-top: 75px;
+   margin-top: 150px;
 }
 
 /* Contenu du sommaire masqué par défaut */
