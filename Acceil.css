@@ -1,0 +1,31 @@
+section {
+   margin-left: -50px; /*je voulais coler l'image au bord*/
+}
+
+.intro {
+   text-align: center;
+   margin-left: 40px;
+}
+
+section div img {
+   max-width: 100%;    /*l'image prend tout la place*/
+   height: auto;
+}
+
+.inscrire_son-enfant {
+   position: absolute;     /*mettre ce div sur l'image*/
+   top: 135%;              /*position*/
+   left: 5%;
+
+   border: 1px solid black;            /*bordure*/
+   background-color: rgb(0, 58, 93);   
+   color: white;  
+   font-size: 90%;
+   padding: 0 15px 10px 15px;
+   border-radius: 30px;            /*bord rond*/
+}
+
+.inscrire_son-enfant p {
+   line-height: 1.5;       /*espace entre les ligne*/
+}
+
