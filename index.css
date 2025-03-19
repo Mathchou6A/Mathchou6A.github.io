@@ -2,6 +2,11 @@ section {
    margin-left: -50px; /*je voulais coler l'image au bord*/
 }
 
+section h1 {
+   text-align: center; /*centrer le titre*/
+   margin-top: 20px;   /*espace en haut*/
+}
+
 .intro {
    text-align: center;
    margin-left: 40px;
