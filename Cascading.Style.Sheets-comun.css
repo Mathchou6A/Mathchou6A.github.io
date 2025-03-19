@@ -1,0 +1,82 @@
+html { /*concerne tout la page : les police utlisier, la marge a gauche de 35px taille du nav*/
+   font-family:  Arial, Times New Roman, Calibri Light, sans-serif;
+   margin-left: 35px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+nav {  
+   background-color: rgb(0, 58, 93);       /*couleur de fond*/
+   color: aliceblue;                       /*couleur de police*/
+   font-size: 1em;                           /*taille de police*/
+   position: fixed;                          /*fixer il ne peut se déplace quand on fait defilier la page*/
+   z-index: 1;                               /*c'est l'élément principale il passe forcément par desu les autre*/
+   left: 0;                                  /*coller a gauche en haut et en bas*/
+   top: 0;
+   bottom: 0;
+   cursor: pointer;                         /*fonciton qui saplique l'orsque le curseur est sur le nav*/
+}
+
+nav img {
+   margin-top: 25px;   /*pour pas quelle se touche*/
+   width: 25px;        /*largeur*/
+}
+
+.sommaire {
+   padding: 10px;          /*marge interieur*/
+   cursor: pointer;        /*fonciton qui saplique l'orsque le curseur est sur le sommaire*/
+   margin-top: 75px;
+}
+
+/* Contenu du sommaire masqué par défaut */
+.contenu-sommaire {
+   display: none;
+}
+
+.indx {
+   margin-top: -140px;     /*tricherie pour que le texe de indx soit en face des image du nav*/
+   list-style-type:none;   /*pas de point devent la liste a puce*/
+}
+
+
+/* Affiche le sommaire au survol */
+nav:hover .contenu-sommaire {
+   display: block;
+}
+
+nav a {
+   text-decoration: none;  /*pas de couleur diférente n'y de trais sous le texte*/
+   color: aliceblue; 
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+header {
+   margin-left: 50px;  
+   display: flex;                      /*propriété pour que des div puis être sur la même ligne*/
+   justify-content: space-between;
+}
+
+
+.logo_SGDF {
+   width: 20%;     
+}
+
+.résaux-social {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;       /*centrer les élément*/
+   margin-right: 80px;
+}
+
+.résaux-social img{
+   width: 90%;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+footer img {
+   width: 100%;    /*prand tout la place a droit et a gauche*/
+   margin-top: 20px;
+}
+
