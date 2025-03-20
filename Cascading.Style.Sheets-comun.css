@@ -1,42 +1,26 @@
-
 nav {  
-   background-color: rgb(71, 121, 96);    
-   color: aliceblue;                    
-   font-size: 1em;                         
-   position: fixed;                       
+   background-color: rgb(70, 120, 95);    
+   color: aliceblue;                   
+   font-size: 1em;                       
+   position: fixed;                        
    z-index: 1;                              
-   left: 0;                                  
+   left: 0;                             
    top: 0;
    bottom: 0;
    cursor: pointer;                         
 }
 
 nav svg {
-   margin-top: 30px;   
-   width: 30px;
-   height: 30px;
-   font-size: 10em;
-}
-
-.sommaire {
-   padding: 10px;          
-   cursor: pointer;       
-   margin-top: 75px;
+   margin-top: 15px;   
+   width: 34px;  
+   padding: 10px;    
 }
 
 .contenu-sommaire {
+   margin-top: -185px;
+   margin-left: 50px;
    display: none;
-   margin-top: -70px;     
-   list-style-type:none;  
 }
-
-.contenu-sommaire a {
-   margin-top: 50px;
-}
-
-/* .indx {
-
-} */
 
 
 nav:hover .contenu-sommaire {
