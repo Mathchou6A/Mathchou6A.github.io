@@ -1,10 +1,10 @@
-section {
-   margin-left: -50px; /*je voulais coler l'image au bord*/
+section, header, footer {
+   margin-left: 50px; /*je voulais coler l'image au bord*/
 }
 
-section h1 {
+h1 {
    text-align: center; /*centrer le titre*/
-   margin-top: 20px;   /*espace en haut*/
+   margin-top: 50px;   /*espace en haut*/
 }
 
 .intro {
@@ -33,4 +33,69 @@ section div img {
 .inscrire_son-enfant p {
    line-height: 1.5;       /*espace entre les ligne*/
 }
+
+
+
+/* --------------------------------------------------------------------------------- */
+
+/* body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #f4f4f4;
+} */
+
+.container {
+   display: flex;
+   height: 100vh;
+   justify-content: space-around;
+   width: 80%;
+}
+
+table {
+   width: 45%;
+   border-collapse: collapse;
+   background: white;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+   overflow: hidden;
+}
+
+th, td {
+   border: 1px solid black;
+   padding: 12px;
+   text-align: left;
+}
+
+th {
+   background-color: rgb(70, 120, 95);
+   color: white;
+   text-align: center;
+   font-size: 1.2em;
+}
+
+.progress-container {
+   width: 100%;
+   background-color: #ddd;
+   border-radius: 5px;
+}
+
+.progress-bar {
+   height: 20px;
+   border-radius: 5px;
+   text-align: center;
+   color: white;
+   font-size: 14px;
+   line-height: 20px;
+}
+
+.obsidian { width: 95%; background-color: #4285F4; }
+.onenote { width: 100%; background-color: #8E44AD; }
+.word { width: 60%; background-color: #3498DB; }
+.excel { width: 50%; background-color: #2ECC71; }
+.vscode { width: 70%; background-color: #FF5733; }
+.html { width: 50%; background-color: #E67E22; }
+.css { width: 30%; background-color: #D35400; }
 
