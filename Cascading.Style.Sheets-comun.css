@@ -19,6 +19,7 @@ nav svg {
 .contenu-sommaire {
    margin-top: -185px;
    margin-left: 50px;
+   padding: 0 10px 0 10px;
    display: none;
 }
 
@@ -30,4 +31,20 @@ nav:hover .contenu-sommaire {
 nav a {
    text-decoration: none;  
    color: aliceblue; 
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+section {
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 50px;
+   padding: 0 100px 0 100px;
+}
+
+footer img {
+   width: 100%;
+   margin-top: 20px;
 }
