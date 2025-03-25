@@ -1,10 +1,10 @@
 section, header, footer {
-   margin-left: 50px; /*je voulais coler l'image au bord*/
+   margin-left: 50px;
 }
 
 h1 {
-   text-align: center; /*centrer le titre*/
-   margin-top: 50px;   /*espace en haut*/
+   text-align: center; 
+   margin-top: 50px;   
 }
 
 .intro {
@@ -13,25 +13,25 @@ h1 {
 }
 
 section div img {
-   max-width: 100%;    /*l'image prend tout la place*/
+   max-width: 100%;
    height: auto;
 }
 
 .inscrire_son-enfant {
-   position: absolute;     /*mettre ce div sur l'image*/
-   top: 135%;              /*position*/
+   position: absolute; 
+   top: 135%;  
    left: 5%;
 
-   border: 1px solid black;            /*bordure*/
+   border: 1px solid black;      
    background-color: rgb(0, 58, 93);   
    color: white;  
    font-size: 90%;
    padding: 0 15px 10px 15px;
-   border-radius: 30px;            /*bord rond*/
+   border-radius: 30px;    
 }
 
 .inscrire_son-enfant p {
-   line-height: 1.5;       /*espace entre les ligne*/
+   line-height: 1.5;      
 }
 
 
